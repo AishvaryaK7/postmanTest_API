@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "60602e63-2e05-4efb-89c8-cf7398de4965",
+		"name": "test_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Status",
+			"_postman_id": "1806b138-cdc3-487d-b620-147a6de88b7a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://simple-books-api.glitch.me/status"
+			},
+			"response": []
+		},
+		{
+			"name": "Books",
+			"_postman_id": "70d235bf-0097-47bf-9b10-a49a40a25b58",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://simple-books-api.glitch.me/books"
+			},
+			"response": []
+		}
+	]
+}
